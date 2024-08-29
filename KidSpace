@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KidsSpace</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>KidsSpace</h1>
+    </header>
+    <main>
+        <div class="content">
+            <iframe src="https://www.youtube.com/embed/VSfoV_xrh78" 
+                    title="KidsSpace Video"
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen></iframe>
+            <div class="caption">
+                <p>Um espaço seguro para sua criança aproveitar o dia.</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Azul claro */
+}
+
+header {
+    background-color: #87ceeb; /* Azul suave */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    color: #333;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px); /* Ajuste a altura considerando o header */
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+iframe {
+    width: 560px;
+    height: 315px;
+    margin-right: 20px;
+}
+
+.caption {
+    max-width: 300px;
+}
+
+p {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
